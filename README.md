@@ -45,6 +45,7 @@ These files are automatically created if missing.
 <h1>Outputs</h1>
 1. SystemHealth.log
 A timestamped report including: 
+
 * CPU, memory, and disk usage
 * System uptime
 * Top resource-consuming processes
@@ -54,6 +55,7 @@ A timestamped report including:
 2. Email Alert
 
 A single combined email summarizing:
+
 * Threshold violations
 * Service failures
 * Syslog errors
