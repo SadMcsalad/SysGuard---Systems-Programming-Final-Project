@@ -116,7 +116,7 @@ echo "" >> "$logfile"
 echo "--- Recent Application Log Errors ---" >> "$logfile"
 
 #parse log using sudo
-errors=$(sudo grep -Ei "error|failed|warn" /var/log/syslog | tail -n 5)
+errors=$(sudo grep -aEi "error|failed|warn" /var/log/syslog | tail -n 5)
 
 if [ -n "$errors" ]; then
     echo "$errors" >> "$logfile"
@@ -134,6 +134,7 @@ echo "" >> "$logfile"
 if [ -n "$ALERT_MSG" ]; then
     echo -e "$ALERT_MSG" | mail -s "System Alert on $(hostname)" "$EMAIL"
 fi
+
 
 
 

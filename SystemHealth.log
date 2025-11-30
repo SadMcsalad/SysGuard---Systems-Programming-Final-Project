@@ -1,0 +1,176 @@
+=============== System Health at 2025-11-25 23:26:52 =============== 
+
+--- Uptime ---
+ 23:26:53 up 4 min,  2 users,  load average: 3.96, 4.27, 1.99
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.3Gi       1.1Gi       5.3Gi        32Mi       1.1Gi       6.2Gi
+Swap:             0B          0B          0B
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           743M  1.6M  742M   1% /run
+/dev/sda2        25G  9.7G   14G  42% /
+tmpfs           3.7G     0  3.7G   0% /dev/shm
+tmpfs           3.7G   16K  3.7G   1% /tmp
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           743M  108K  743M   1% /run/user/1000
+
+--- CPU Usage ---
+%Cpu(s):  0.0 us,  0.6 sy,  0.0 ni, 98.1 id,  0.6 wa,  0.0 hi,  0.6 si,  0.0 st 
+
+--- Top Processes ---
+    PID COMMAND         %CPU %MEM
+   3968 ps              75.0  0.0
+   3085 gnome-shell     53.6  4.6
+   3969 head            50.0  0.0
+   1063 snapd           36.9  0.6
+   3432 ibus-extension- 19.0  0.3
+
+--- Service Status ---
+apache2: NOT running
+nginx: NOT running
+mysqld: NOT running
+
+--- Recent Application Log Errors ---
+No errors detected
+
+===============================================================
+
+=============== System Health at 2025-11-27 20:08:49 =============== 
+
+--- Uptime ---
+ 20:08:49 up 6 min,  2 users,  load average: 0.13, 1.12, 0.80
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.3Gi       1.1Gi       5.5Gi        32Mi       939Mi       6.2Gi
+Swap:             0B          0B          0B
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           743M  1.6M  742M   1% /run
+/dev/sda2        25G  9.7G   14G  42% /
+tmpfs           3.7G     0  3.7G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           3.7G   16K  3.7G   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           743M  108K  743M   1% /run/user/1000
+
+--- CPU Usage ---
+%Cpu(s):  0.0 us,  0.6 sy,  0.0 ni, 94.3 id,  3.8 wa,  0.0 hi,  1.3 si,  0.0 st 
+
+--- Top Processes ---
+    PID COMMAND         %CPU %MEM
+   3576 ps              28.5  0.0
+   3557 bash             8.9  0.0
+   2714 gnome-shell      8.0  4.7
+   1089 snapd            5.9  0.5
+      1 systemd          2.8  0.2
+
+--- Service Status ---
+apache2: NOT running
+nginx: NOT running
+mysqld: NOT running
+
+--- Recent Application Log Errors ---
+No errors detected
+
+===============================================================
+
+=============== System Health at 2025-11-27 20:11:56 =============== 
+
+--- Uptime ---
+ 20:11:56 up 10 min,  2 users,  load average: 0.18, 0.69, 0.68
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.3Gi       1.1Gi       5.5Gi        32Mi       957Mi       6.2Gi
+Swap:             0B          0B          0B
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           743M  1.6M  742M   1% /run
+/dev/sda2        25G  9.7G   14G  42% /
+tmpfs           3.7G     0  3.7G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           3.7G   16K  3.7G   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           743M  108K  743M   1% /run/user/1000
+
+--- CPU Usage ---
+%Cpu(s):  0.0 us,  0.7 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+
+--- Top Processes ---
+    PID COMMAND         %CPU %MEM
+   3636 ps               100  0.0
+   3617 bash            22.1  0.0
+   2714 gnome-shell      9.2  4.7
+   1089 snapd            3.9  0.5
+      1 systemd          1.9  0.2
+
+--- Service Status ---
+apache2: NOT running
+nginx: NOT running
+mysqld: NOT running
+
+--- Recent Application Log Errors ---
+2025-11-27T20:07:32.777320+00:00 Ubuntu-25 systemd[1]: Starting update-notifier-download.service - Download data for packages that failed at package install time...
+2025-11-27T20:07:37.644701+00:00 Ubuntu-25 systemd[1]: Finished update-notifier-download.service - Download data for packages that failed at package install time.
+2025-11-27T20:11:13.106378+00:00 Ubuntu-25 gnome-shell[2714]: libinput error: event6  - VirtualBox mouse integration: client bug: event processing lagging behind by 25ms, your system is too slow
+2025-11-27T20:11:14.385920+00:00 Ubuntu-25 gnome-shell[2714]: libinput error: event6  - VirtualBox mouse integration: client bug: event processing lagging behind by 29ms, your system is too slow
+2025-11-27T20:11:19.931762+00:00 Ubuntu-25 gnome-shell[2714]: libinput error: event2  - AT Translated Set 2 keyboard: client bug: event processing lagging behind by 44ms, your system is too slow
+
+===============================================================
+
+=============== System Health at 2025-11-29 00:00:24 =============== 
+
+--- Uptime ---
+ 00:00:24 up  1:38,  2 users,  load average: 0.11, 0.06, 0.11
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.3Gi       1.2Gi       3.5Gi        32Mi       2.8Gi       6.0Gi
+Swap:             0B          0B          0B
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           743M  1.7M  742M   1% /run
+/dev/sda2        25G  9.5G   14G  41% /
+tmpfs           3.7G     0  3.7G   0% /dev/shm
+tmpfs           3.7G   16K  3.7G   1% /tmp
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           743M  112K  743M   1% /run/user/1000
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+
+--- CPU Usage ---
+%Cpu(s):  0.9 us,  0.9 sy,  0.0 ni, 98.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+
+--- Top Processes ---
+    PID COMMAND         %CPU %MEM
+  35452 ps               300  0.0
+   2714 gnome-shell      3.7  5.2
+  35433 bash             1.7  0.0
+     18 rcu_preempt      1.2  0.0
+  35427 smtp             0.7  0.2
+
+--- Service Status ---
+apache2: NOT running
+nginx: NOT running
+mysqld: NOT running
+
+--- Recent Application Log Errors ---
+2025-11-28T00:06:19.383793+00:00 Ubuntu-25 update-notifier[3431]: message repeated 2 times: [ gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed]
+2025-11-28T00:07:51.910831+00:00 Ubuntu-25 update-notifier[3431]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2025-11-28T00:38:25.990993+00:00 Ubuntu-25 gnome-shell[2714]: DING: (gjs:34932): Gjs-WARNING **: 00:38:25.976: GLib.unix_signal_add has been moved to a separate platform-specific library. Please update your code to use GLibUnix.signal_add instead.
+2025-11-28T23:43:02.101476+00:00 Ubuntu-25 systemd[1]: fwupd-refresh.service: Failed with result 'exit-code'.
+2025-11-28T23:43:02.101519+00:00 Ubuntu-25 systemd[1]: Failed to start fwupd-refresh.service - Refresh fwupd metadata and update motd.
+
+===============================================================
+
